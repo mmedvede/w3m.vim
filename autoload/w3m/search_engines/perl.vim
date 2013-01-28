@@ -3,7 +3,7 @@
 " Version: 1.0.0
 " Author: yuratomo (twitter @yusetomo)
 
-let s:engine = w3m#search_engine#Init('perl', 'http://www.google.com/search?ie=EUC-JP&oe=UTF-8&sitesearch=perldoc.jp/func/&q=%s')
+let s:engine = w3m#search_engine#Init('perl', 'http://www.google.com/search?sitesearch=perldoc.com/func/&q=%s')
 
 
 function! s:engine.preproc()

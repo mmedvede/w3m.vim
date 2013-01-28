@@ -3,7 +3,7 @@
 " Version: 1.0.0
 " Author: yuratomo (twitter @yusetomo)
 
-let s:engine = w3m#search_engine#Init('as3', 'http://www.google.com/search?ie=EUC-JP&oe=UTF-8&sitesearch=livedocs.adobe.com/flash/9.0_jp/&q=%s')
+let s:engine = w3m#search_engine#Init('as3', 'http://www.google.com/search?sitesearch=livedocs.adobe.com/flash/9.0_jp/&q=%s')
 
 function! s:engine.preproc()
   let s:user_agent_backup = g:user_agent

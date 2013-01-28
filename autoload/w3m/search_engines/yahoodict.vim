@@ -3,7 +3,7 @@
 " Version: 1.0.0
 " Author: yuratomo (twitter @yusetomo)
 
-let s:engine = w3m#search_engine#Init('yahoodict', 'http://dic.search.yahoo.co.jp/search?ei=' . &encoding . '&p=%s&fr=dic&stype=prefix')
+let s:engine = w3m#search_engine#Init('yahoodict', 'http://dic.search.yahoo.com/search?ei=' . &encoding . '&p=%s&fr=dic&stype=prefix')
 
 function! s:engine.filter(outputs)
   let start = -1

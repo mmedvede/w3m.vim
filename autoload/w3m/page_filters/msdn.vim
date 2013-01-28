@@ -3,7 +3,7 @@
 " Version: 1.0.0
 " Author: yuratomo (twitter @yusetomo)
 
-let s:filter = w3m#page_filter#Init('msdn', 'http:\/\/msdn\.microsoft\.com\/ja-jp\/library')
+let s:filter = w3m#page_filter#Init('msdn', 'http:\/\/msdn\.microsoft\.com\/library')
 
 function! s:filter.preproc()
 endfunction

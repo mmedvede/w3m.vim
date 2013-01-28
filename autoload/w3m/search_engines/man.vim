@@ -3,7 +3,7 @@
 " Version: 1.0.0
 " Author: yuratomo (twitter @yusetomo)
 
-let s:engine = w3m#search_engine#Init('man', 'http://www.google.com/search?ie=EUC-JP&oe=UTF-8&sitesearch=linuxjm.sourceforge.jp/html/&q=%s')
+let s:engine = w3m#search_engine#Init('man', 'http://www.google.com/search?sitesearch=linuxjm.sourceforge.com/html/&q=%s')
 
 function! s:engine.preproc()
   let s:user_agent_backup = g:user_agent
